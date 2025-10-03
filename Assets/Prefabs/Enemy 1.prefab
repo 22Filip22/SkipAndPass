@@ -122,6 +122,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpValue: 10
   hp: 4
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &1354477952541497254
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -180,6 +183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad31614baea6db64faaee60b949ee890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  minY: 0.2
+  minY: 0.3
   maxY: 0.4
   cycleTime: 1

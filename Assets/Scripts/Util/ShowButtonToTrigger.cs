@@ -1,7 +1,5 @@
 using System;
 using TMPro;
-using UnityEditor;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -11,9 +9,6 @@ public class ShowButtonToTrigger : MonoBehaviour
     [SerializeField]
     char CharacterToShow;
 
-#if UNITY_EDITOR
-    [SerializeField] private SceneAsset sceneAsset;
-#endif
 
     private void Start()
     {
@@ -28,9 +23,8 @@ public class ShowButtonToTrigger : MonoBehaviour
             (KeyCode)Enum.Parse(
                 typeof(KeyCode), CharacterToShow.ToString().ToUpper())))
         {
-            Debug.Log("-------------------------------------------");
 
-            SceneManager.LoadScene(sceneAsset.name);
+            SceneManager.LoadScene("elementry_school");
         }
     }
 }

@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/elementry_school.unity
     guid: 813123eff47c1b64e8533dd36e56cf05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/lower_secondary.unity
     guid: 31b2fc027ba582d4db1cc9165955cf7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/upper_secondary.unity
     guid: 459750e83a2a5444481c78f58a337afb
   m_configObjects:
