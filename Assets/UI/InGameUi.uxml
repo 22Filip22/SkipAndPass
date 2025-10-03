@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; top: initial; left: initial; position: absolute; width: 45%; height: 45px; margin-top: 2%; margin-left: 2%; align-self: auto; align-content: flex-start; align-items: center; justify-content: flex-start; flex-direction: row; flex-wrap: nowrap;">
+        <ui:Label text="1" style="font-size: 45%;" />
+        <ui:Label text="2" style="font-size: 45%;" />
+        <ui:Label text="3" style="font-size: 45%;" />
+        <ui:Label text="4" style="font-size: 45%;" />
+    </ui:VisualElement>
+    <ui:Slider value="42" high-value="100" style="position: absolute; width: 39%; align-self: auto; justify-content: flex-start; align-items: stretch; align-content: flex-start; top: 486px; left: -261px; rotate: 90deg; height: 17%;" />
+</ui:UXML>
